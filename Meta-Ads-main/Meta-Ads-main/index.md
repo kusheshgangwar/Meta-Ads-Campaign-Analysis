@@ -194,8 +194,6 @@ Time-based behavioral analysis indicates that both engagement and conversion act
 
 ## Interactive Visualizations & Dashboard
 <p><strong>Power BI Dashboard:</strong> <a href="https://app.powerbi.com/view?r=eyJrIjoiYzdiMzI3ODktNzM1NS00ZDliLTk2M2QtMjljYmE5YzAwYjQ4IiwidCI6IjY1MTBmNjlkLWMzZjUtNDIxZi04ZGZlLWUxZDJiYzk3ZjI3" target="_blank" rel="noopener noreferrer">Open Dashboard in Power BI</a></p>
-
-<iframe title="Meta Ads Dashboard" width="1000" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiYzdiMzI3ODktNzM1NS00ZDliLTk2M2QtMjljYmE5YzAwYjQ4IiwidCI6IjY1MTBmNjlkLWMzZjUtNDIxZi04ZGZlLWUxZDJiYzk3ZjI3" frameborder="0" allowFullScreen="true"></iframe>
 <br>
 
 ## Key Insights
