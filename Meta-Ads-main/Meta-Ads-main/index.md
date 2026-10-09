@@ -2,16 +2,16 @@
 
 <img src="pictures/Types-Of-Social-Media-Advertising-And-Meta-Advertising.png" alt="banner" width="47%"> <img src="pictures/meta-ads-creative-best-practices.jpg" alt="banner" width="45%">   
 
-**Meta Ads** are digital advertisements placed across **Facebook, Instagram, Messenger,** and the Audience Network, allowing businesses to target users based on demographics, interests, and behavior. [...]
+**Meta Ads** are digital advertisements placed across **Facebook, Instagram, Messenger,** and the Audience Network, allowing businesses to target users based on demographics, interests, and behavior. Formerly known as Facebook Ads, this system uses data-driven, highly customizable ad formats like videos, images, and carousels to increase brand awareness, website traffic, and sales. 
 
 ## Project Overview
-- This project focuses on analyzing social media advertising campaign performance using SQL and Power BI. The dataset contains information about ad campaigns, individual advertisements, user demographic and user interaction events such as views and clicks.
+- This project focuses on analyzing social media advertising campaign performance using SQL and Power BI. The dataset contains information about ad campaigns, individual advertisements, user demographics, and user interaction events such as views and clicks. 
 - The objective of the project is to explore how different advertising strategies perform across platforms like Facebook and Instagram. 
-- By combining campaign data, advertisement details, and user interaction events, the project aims to uncover insights related to audience targeting, engagement patterns, and campaign effectiveness. The analysis is performed using SQLite for data cleaning and analytical queries, and Power BI for interactive dashboards and visualizations.
+- By combining campaign data, advertisement details, and user interaction events, the project aims to uncover insights related to audience targeting, engagement patterns, and campaign effectiveness. The analysis is performed using SQLite for data cleaning and analytical queries, and Power BI for interactive dashboards and visualization of key marketing insights.
 
 ## Data Sources
 The [dataset](https://drive.google.com/drive/folders/1kiJFKdE6Lk-k4UlVS50GkrtcMJjnL_w1) used in this project is a simulated digital advertising dataset designed to represent advertising campaigns running on social media platforms such as Facebook and Instagram. The data contains information about ad campaigns, individual ads, user demographics, and user interactions with advertisements.
-The dataset is organized into four CSV files that represent different entities within a marketing campaign ecosystem. These files were imported into SQL, Excel, Power BI and used for data cleaning, SQL analysis, and visualization.
+The dataset is organized into four CSV files that represent different entities within a marketing campaign ecosystem. These files were imported into SQl, Excel,Power BI and used for data cleaning, SQL analysis, and visualization.
 
 #### 1. ad_events.csv
 This file contains user interaction data with advertisements. Each record represents an event triggered by a user when interacting with an ad.
@@ -88,7 +88,7 @@ After data cleaning, the datasets were imported into a SQLite database for relat
 * **ads** – Stores details about individual advertisements, including platform, ad type, and targeting attributes.
 * **users** – Contains demographic information about users who interacted with advertisements.
 * **ad_events** – Records user interactions with ads such as views, clicks, or engagements along with timestamps.
-
+  
 These tables are connected through unique identifiers:
 * **campaign_id** links **ads** to **campaigns**
 * **ad_id links** **ad_events** to **ads**
@@ -193,7 +193,7 @@ Ad targeting alignment analysis reveals that while certain interest-based segmen
 Time-based behavioral analysis indicates that both engagement and conversion activity vary significantly across days of the week and times of day. Identifying peak responsiveness periods enables more efficient ad scheduling and improved campaign performance.
 
 ## Interactive Visualizations & Dashboard
-<p><strong>Power BI Dashboard:</strong> <a href="https://app.powerbi.com/view?r=eyJrIjoiYzdiMzI3ODktNzM1NS00ZDliLTk2M2QtMjljYmE5YzAwYjQ4IiwidCI6IjY1MTBmNjlkLWMzZjUtNDIxZi04ZGZlLWUxZDJiYzk3ZjI3" target="_blank" rel="noopener noreferrer">Open Dashboard in Power BI</a></p>
+<iframe title="Dashboard" width="1000" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiYzdiMzI3ODktNzM1NS00ZDliLTk2M2QtMjljYmE5YzAwYjQ4IiwidCI6IjY1MTBmNjlkLWMzZjUtNDIxZi04ZGZlLWUxZDJiYzk3ZjI3NSJ9" frameborder="0" allowFullScreen="true"></iframe>
 <br>
 
 ## Key Insights
